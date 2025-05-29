@@ -1,0 +1,121 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./" />
+    <title>Dinda Salon</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body class="bg-white">
+    <header>
+      <input type="checkbox" name="" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+
+      <div class="logo">
+        <a href="#">
+          <img src="./images/Logo1.png" alt="Dinda Salon" />
+        </a>
+      </div>
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="treatment.html">Treatments</a>
+        <a href="contactus.html">Contact</a>
+      </nav>
+      <div class="icons">
+        <a href="#" class="fas fa-heart" id="heart-icon">
+          <span id="heart-count">0</span>
+        </a>
+        <a href="#" class="fas fa-shopping-cart">
+          <span id="cart-count">0</span>
+        </a>
+      </div>
+
+      <div class="heart-cart">
+        <div class="cart-item"></div>
+        <div class="item-info"></div>
+      </div>
+      <!-- shopping cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item"></div>
+        <div class="item-info"></div>
+      </div>
+    </header>
+<!-- 
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-10"> -->
+      <section class="header" id="header">
+        <div class="promo-container">
+          <div class="promo-text">
+            <div style="font-size: 14px; letter-spacing: 1px">WELCOME TO</div>
+            <h1>DINDA SALON</h1>
+            <p>
+              "Rasakan perawatan dan layanan kecantikan terbaik yang disesuaikan
+              khusus untuk Anda. Rileks meremajakan, dan bersinar dengan
+              perawatan ahli kami."
+            </p>
+          </div>
+          <div class="promo-image"></div>
+        </div>
+      </section>
+
+      <section class="mt-16" style="padding: 0 30px 30px;">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-6 text-center">
+          Our Treatments
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div class="border rounded-lg p-6 shadow hover:shadow-lg transition">
+            <img
+              src="https://storage.googleapis.com/a1aa/image/0e812ee4-04a7-4cb9-53b8-cc807c7fd907.jpg"
+              alt="Close-up of a woman receiving a facial treatment with a mask applied"
+              class="rounded mb-4 w-full object-cover h-48"
+              width="400"
+              height="250"
+            />
+            <h3 class="text-xl font-semibold mb-2">Perawatan Wajah</h3>
+            <p class="text-gray-600">
+              Segarkan wajah anda dengan berbagai macam cara perawatan wajah di
+              Salon Dinda
+            </p>
+          </div>
+          <div class="border rounded-lg p-6 shadow hover:shadow-lg transition">
+            <img
+              src="https://storage.googleapis.com/a1aa/image/8374b230-f72a-42d8-6ceb-da6547f3d505.jpg"
+              alt="A stylist cutting and styling hair in a modern salon"
+              class="rounded mb-4 w-full object-cover h-48"
+              width="400"
+              height="250"
+            />
+            <h3 class="text-xl font-semibold mb-2">Perawatan Rambut</h3>
+            <p class="text-gray-600">
+              Dapatkan gaya rambut yang sempurna dengan perawatan rambut kami
+              yang dapat sesuai dengan keinginan anda.
+            </p>
+          </div>
+          <div class="border rounded-lg p-6 shadow hover:shadow-lg transition">
+            <img
+              src="images/Amanda Seyfried.jpg"
+              alt="Hands and feet being pampered with manicure and pedicure treatments"
+              class="rounded mb-4 w-full object-cover h-48"
+              width="400"
+              height="250"
+            />
+            <h3 class="text-xl font-semibold mb-2">Macam-Macam Make Up</h3>
+            <p class="text-gray-600">
+              Tersedia berbagai macam make up yang menunjang penampilan anda.
+            </p>
+          </div>
+        </div>
+      </section>
+    <!-- </main> -->
+    <script src="js/cartscript.js"></script>
+    <script src="js/heartscript.js"></script>
+    <script src="js/navscript.js"></script>
+  </body>
+</html>

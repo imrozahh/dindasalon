@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contactus.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/aboutus.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <input type="checkbox" name="" id="toggler" />
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <div class="logo">
+        <!-- Ini tadi untuk folder image-nya ada di luar folder src, jadi masukkan folder image-nya ke src dulu yaw -->
+        <img src="./images/Logo1.png" alt="Dinda Salon" />
+      </a>
+    </div>
+     <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="treatment.html">Treatments</a>
+        <a href="contactus.html">Contact</a>
+      </nav>
+    <div class="icons">
+      <a href="#" class="fas fa-heart" id="heart-icon"> 
+        <span id="heart-count">0</span>
+      </a>
+      <a href="#" class="fas fa-shopping-cart">
+        <span id="cart-count">0</span>
+      </a>
+    </div>
+
+    <div class="shopping-cart">
+      <div class="cart-item"></div>
+      <div class="item-info"></div>
+    </div>
+    <div class="heart-cart">
+      <div class="cart-item"></div>
+      <div class="item-info"></div>
+    </div>
+  </header>
+    <section class="contact" id="Contact">
+        <div class="section-header" >
+          <div class="container">
+            <h2>Contact Us</h2>
+            <p>
+              Kami di sini untuk membantu Anda! Jika Anda memiliki pertanyaan,
+              saran, atau membutuhkan bantuan lebih lanjut mengenai produk atau
+              layanan kami, jangan ragu untuk menghubungi kami. Tim dukungan
+              pelanggan kami siap memberikan jawaban yang Anda butuhkan. Silakan
+              isi formulir di bawah ini atau hubungi kami melalui email atau nomor
+              telepon yang tercantum. Kami akan merespon secepatnya dan memastikan setiap kebutuhan Anda
+              terpenuhi dengan baik.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-home"></i>
+                </div>
+                <div class="contact-info-content">
+                  <h4>Address</h4>
+                  <p>
+                    Jl. Kenanga 1 No.70 Kb.Kidul,<br />
+                    Jember Kidul, Kec. Kaliwates <br />
+                    Kab. Jember, Jawa Timur 68131
+                  </p>
+                </div>
+              </div>
+      
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-info-content">
+                  <h4>Phone</h4>
+                  <p>0813-3653-1076</p>
+                </div>
+              </div>
+      
+              <div class="contact-info-item">
+                <div class="contact-info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-info-content">
+                  <h4>Email</h4>
+                  <p>dindasalon@gmail.com</p>
+                </div>
+              </div>
+            </div>
+      
+            <div class="contact-form">
+              <form id="contact-form">
+                <h2>Send Message</h2>
+                <div class="input-box">
+                  <input type="text" required />
+                  <span>Full name</span>
+                </div>
+      
+                <div class="input-box">
+                  <input type="email" required />
+                  <span>Email</span>
+                </div>
+      
+                <div class="input-box">
+                  <textarea required></textarea>
+                  <span>Type your message</span>
+                </div>
+      
+                <div class="input-box">
+                  <input type="submit" value="Send" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="js/cartscript.js"></script>
+      <script src="js/navscript.js"></script>
+      <script src="js/heartscript.js"></script>
+</body>
+</html>
